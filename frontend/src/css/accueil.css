@@ -1,0 +1,81 @@
+.accueil-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  padding: 20px;
+}
+
+.accueil-card {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  text-align: center;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.accueil-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.15);
+}
+
+.accueil-card h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.accueil-intro {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.accueil-features h2 {
+  font-size: 1.3rem;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.accueil-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+  text-align: left;
+}
+
+.accueil-features ul li {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.accueil-features ul li::before {
+  content: "✔️";
+  margin-right: 8px;
+}
+
+.accueil-login .btn-login {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition:
+    background 0.2s ease,
+    transform 0.1s ease;
+}
+
+.accueil-login .btn-login:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}

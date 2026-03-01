@@ -1,0 +1,12 @@
+.error-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.error-page h1 {
+  font-size: 48px;
+}

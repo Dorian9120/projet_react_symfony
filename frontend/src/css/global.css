@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  min-height: 100vh;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+}
+
+button.danger {
+  background: #e74c3c;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+button.danger:hover {
+  background: #c0392b;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 12px;
+  width: 97%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}

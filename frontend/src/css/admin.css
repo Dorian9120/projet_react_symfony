@@ -1,0 +1,124 @@
+.admin-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.admin-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-table th {
+  background-color: #f4f4f4;
+  font-weight: 600;
+}
+
+.admin-table tbody tr {
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.admin-table tbody tr:hover {
+  background-color: #f0f8ff;
+}
+
+.admin-table input[type="text"] {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+
+.admin-table input[type="text"]:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 3px rgba(52, 152, 219, 0.5);
+  outline: none;
+}
+
+.admin-table select {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+
+.admin-table select:hover {
+  border-color: #888;
+}
+
+.admin-table select:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 3px rgba(52, 152, 219, 0.5);
+  outline: none;
+}
+
+.admin-table button {
+  margin: 0 2px;
+  padding: 4px 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.admin-table button:hover {
+  opacity: 0.8;
+}
+
+button.danger {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  /* margin-top: 20px; */
+}
+
+button.danger:hover {
+  background-color: #c0392b;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.loader {
+  text-align: center;
+}
